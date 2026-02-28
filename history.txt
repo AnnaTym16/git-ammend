@@ -1,0 +1,141 @@
+    1  whoami
+    2  cat .ssh/id_rsa.pub
+    3  ssh ec-user@linux.itcareerhub.de
+    4  touch 1.txt
+    5  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/anna_tymchuk/1.txt
+    6  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/anna_tymchuk/1.txt "c/Users/ICH/Desktop/линукс/hw5"
+    7  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/anna_tymchuk/1.txt "c/Users/ICH/Desktop/линукс/hw5/"
+    8  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/anna_tymchuk/1.txt 'c/Users/ICH/Desktop/linux/hw5/'
+    9  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/anna_tymchuk/1.txt '/c/Users/ICH/Desktop/линукс/hw5/'
+   10  scp ec2-user@linux.itcareerhub.de:/opt/281125-wdm/anna_tymchuk/1.txt "c/Users/ICH/Desktop/linux/hw5/"
+   11  touch 1.txt
+   12   ssh ec2-user@linux.itcareerhub.de/opt/281125-wdm/anna_tymchuk
+   13   ssh ec2-user@linux.itcareerhub.de/opt/281125-wdm/anna_tymchuk/
+   14  /opt/281125-wdm/anna_tymchuk
+   15   ssh ec2-user@linux.itcareerhub.de/opt/281125-wdm/anna_tymchuk
+   16  scp  ec2-user@linux.itcareerhub.de:/opt
+   17  scp  ec2-user@linux.itcareerhub.de:/opt/281125-wdm/anna_tymchuk/test.txt .
+   18  cat test.txt
+   19  echo "hello2" > anna.txt
+   20  pwd
+   21  scp anna.txt ec2-user@linux.itcareerhub.de:/opt/281125-wdm/anna_tymchuk/anna22.txt
+   22  ec2-user@linux.itcareerhub.de
+   23  ec2-user@linux.itcareerhub.de
+   24  ssh ec2-user@linux.itcareerhub.de
+   25  ssh ec2-user@linux.itcareerhub.de
+   26  ssh ec2-user@linux.itcareerhub.de
+   27  ec-2-user@linux.itcareerhub.de
+   28  ec-2-user@linux.itcareerhub.de
+   29  ssh ec-2-user@linux.itcareerhub.de
+   30  ssh ec-2-user@linux.itcareerhub.de
+   31  home
+   32  [200~$ ssh ec-2-user@linux.itcareerhub.de
+   33  ec-2-user@linux.itcareerhub.de: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+   34  /
+   35  pwd
+   36  ~ ssh ec2-user@linux.itcareerhub.de
+   37  ~ ssh ec2-user@linux.itcareerhub.de
+   38  ~ ssh ec2-user@linux.itcareerhub.de
+   39  ssh ec2-user@linux.itcareerhub.de
+   40  ssh ec2-user@linux.itcareerhub.de
+   41  ssh ec2-user@linux.itcareerhub.de
+   42  ssh ec2-user@linux.itcareerhub.de
+   43  mkdir linux-first
+   44  cd linux-first
+   45  ls -la
+   46  git init 
+   47   ls - la
+   48  ls -la
+   49   echo "# Linux" >> README.md
+   50  ls -la
+   51  git statys
+   52  git status
+   53  git add README.md
+   54  git status
+   55  git commit -m "added file REAMDE.md"
+   56   git config --global user.email "anyatymchuk99@gmail.com"
+   57  git config --global user.name "AnnaTym16"
+   58  git commit -m "added file REAMDE.md"
+   59  git branch
+   60  git branch -M main
+   61  git push -u origin main
+   62  git remoti -v
+   63  git remote add origin git@github.com:AnnaTym16/-linux-first.git
+   64  git remote -v
+   65  git push -u origin main
+   66  ls -la
+   67  ls -la
+   68  gat add linux 16.02/
+   69  git add linux 16.02/
+   70  ls -la
+   71  git add project/
+   72  git status
+   73  git add .
+   74  git status
+   75  git commit -m "added file First project"
+   76  git push
+   77  git log
+   78  git log --oneline
+   79   git log --graph
+   80  mkdir git_intro
+   81  git init
+   82  cp C:\Users\ICH\Desktop\linux/bmw.jpg .
+   83  cp /c/Users/ICH/Desktop/linux/bmw.jpg .
+   84  ls
+   85  git add bmw.jpg
+   86  git status
+   87  git commit -m "Added photo"
+   88  git branch -M main
+   89  git remote add origin git@github.com:AnnaTym16/git_intro.git
+   90  git push -u origin main
+   91  pwd
+   92  mkdir git-branch
+   93  cd git-branch
+   94  pwd
+   95  git init
+   96  git remote add origin git@github.com:AnnaTym16/git-branch.git
+   97  git checkout -b gitignore
+   98  touch .gitignore 
+   99  git add .gitignore
+  100  git commit -m "added .gitignore file hw10"
+  101  git push -u origin gitignore
+  102  ssh ec2-user@linux.itcareerhub.de
+  103  ssh ec2-user@linux.itcareerhub.de
+  104  pwd
+  105  git clone https://github.com/AnnaTym16/git-ammend.git
+  106  ls
+  107  git checkout -b feature
+  108  echo "My project" > README.md
+  109  ls
+  110  cd git-ammend
+  111  ls
+  112  cd ..
+  113  git checkout main
+  114  git branch
+  115  pwd
+  116  ls
+  117  cd git-ammend
+  118  git status
+  119  git branch
+  120  ls -a
+  121  git checkout -b feature 
+  122  echo "README file" > README.md
+  123  echo "test" >> .gitignore
+  124  get add README.md .gitignore 
+  125  git add README.md .gitignore 
+  126  git commit -m "update ginignore and README file"
+  127  git push -u origin feature
+  128  git push -u origin feature
+  129  git branch
+  130  git commit --amend
+  131  git commit --amend -m "update ginignore and README ammend"
+  132   git push --force-with-lease
+  133  git checkout main
+  134  git merge feature
+  135  git push
+  136  history > history.txt
+  137  git add -m ""added
+  138  git add -m "added history"
+  139  git push
+  140  git commit -m "added history"
+  141  history > history.txt
